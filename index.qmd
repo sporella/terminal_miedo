@@ -100,7 +100,7 @@ Ejemplo: `docker`{.naranjo} `-v`{.amarillo}
 
 `pwd:` imprimir el directorio de trabajo
 
-`cwd:` cambiar el directorio de trabajo
+`cd:` cambiar el directorio de trabajo
 
 `ls:` listar archivos / carpetas
 
@@ -129,5 +129,16 @@ Ejemplo: `docker`{.naranjo} `-v`{.amarillo}
 `whatis:` descripción de una función
 
 `clear:` limpiar la pantalla
+
+## Cómo exportar variable de entorno
+
+Usando export:
+
+```export nombre=valor```
+
+Para ver el valor de la variable usamos echo:
+
+```echo $nombre```
+
 
 # `| gracias`{.naranjo}{background-image="img/pattern.png"}
