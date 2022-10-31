@@ -1,0 +1,42 @@
+/*-- scss:defaults --*/
+@import 'https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Aclonica&display=swap';
+
+$presentation-heading-font: "Aclonica", sans-serif;
+$font-family-sans-serif: "Share Tech Mono";
+$font-family: 'Source Code Pro', monospace;
+$presentation-heading-color: #79ed0c;
+
+
+$body-bg: #191919;
+$body-color: #fff;
+$link-color: #a142fa;
+
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.title {
+  color: #ed880c !important;
+}
+
+.verde {
+  color: #79ed0c !important;
+}
+
+.rosa {
+  color: #d96ce0 !important;
+}
+
+.naranjo {
+  color: #ed880c  !important;
+}
+
+.amarillo {
+  color: #e3dd2d !important;
+}

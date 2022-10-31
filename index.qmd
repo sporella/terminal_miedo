@@ -1,0 +1,133 @@
+---
+title: Perderle el Miedo a la Terminal
+subtitle: RLadies Chile - Especial Halloween
+format: 
+  revealjs:
+    theme: [custom.scss]
+engine: knitr
+title-slide-attributes:
+    data-background-image: "img/pattern.png"
+---
+
+# Conceptos {background-image="img/pattern.png"}
+
+## Consola
+
+:::{layout=[1,1]}
+
+![](https://hanselmanblogcontent.azureedge.net/Windows-Live-Writer/23dece647ab5_14733/image_13b2c80d-a2d6-4429-8ca6-f053340897cc.png)
+
+- En el mundo actual: consola de R/Python/JavaScript etc.
+
+- Hay personas que lo usan como sinónimo de terminal
+
+:::
+
+## Terminal
+
+- Proviene de "terminar" un proceso de comunicación, en este caso entre un usuario y un computador.
+
+- "Terminal tonta": se refiere a una interfaz de texto en donde solo se escribe mientras el proceso se ejecuta en otro computador.
+
+## Terminal
+
+- TTY (teletypewriter) fue el primer tipo de terminal. Era como una máquina de escribir en donde se escribía texto plano y luego se imprimía el resultado del proceso que realizaba el computador en el mismo papel. 
+
+- En el mundo actual: la terminal es una versión de software de TTY, desde la cual podemos escribir comandos para comunicarnos con nuestro computador. 
+
+## Terminal
+
+- La terminal recibe y transmite información pero no procesa lo que escribimos, ni analiza nuestros archivos, ni es "inteligente".
+
+
+## Shell
+
+Un "shell" es el programa al que la terminal le envía las entradas del usuario. El shell genera un resultado y se lo devuelve a la terminal para que esta lo muestre.
+
+Algunos ejemplo de shell son:
+
+- bash, fish, zsh, ksh, sh, tsch
+
+- Powershell, pwsh
+
+- cmd, yori, 4dos, command.com
+
+
+## Cli
+
+Viene de "command line interface" y es un tipo de interfaz de usuario que permite a los usuarios dar instrucciones a algún programa o sistema operativo por medio de una línea de texto simple.
+
+Es el opuesto de GUI ("graphical user interface") que provee una interfaz gráfica en donde el usuario puede interactuar de forma visual con el computador y sus programas.
+
+## Ejemplos de Cli
+
+Algunos ejemplos de **`cli`** que se utilizan en el mundo de los datos:
+
+- Git: `git init`
+- Docker: `docker run hello-world`
+- Github cli:  `gh repo create`
+
+## Estructura de una CLI
+
+`<commando>`{.verde}  `[opciones]`{.amarillo} `[argumentos]`{.rosa}
+
+Ejemplo: `ls`{.verde} `-l`{.amarillo} `/home/dir`{.rosa}
+
+<br>
+
+`<programa>`{.naranjo} `<commando>`{.verde} `[argumentos]`{.rosa} `[opciones]`{.amarillo}
+
+Ejemplo: `git`{.naranjo} `fetch`{.verde} `origin main`{.rosa} `--depth=10`{.amarillo}
+
+
+<br>
+
+`<programa>`{.naranjo} `[argumentos]`{.rosa} `[opciones]`{.amarillo}
+
+Ejemplo: `docker`{.naranjo} `-v`{.amarillo}
+
+# Para qué sirve
+
+- Para comunicarnos de forma más eficiente con nuestro computador
+
+- Automatizar tareas
+
+- Conocer un lenguaje común para la mayoría de las computadoras, sin tener que instalar nada (muy útil para trabajar con servidores o máquinas virtuales en la nube)
+
+# Veamos algunas funciones {background-image="img/pattern.png"}
+
+## Resumen de Funciones
+
+`pwd:` imprimir el directorio de trabajo
+
+`cwd:` cambiar el directorio de trabajo
+
+`ls:` listar archivos / carpetas
+
+`mkdir:` crear un directorio
+
+`touch:` crear un archivo
+
+`echo:` imprimir una variable o texto
+
+`export:` exportar una variable de entorno
+
+`cat:` imprimir el contenido de un archivo
+
+## Resumen de Funciones
+
+`rmdir:` remover una carpeta vacía
+
+`rm:` remover
+
+`cp:` copiar
+
+`mv:` mover
+
+`man:` manual de uso de una función
+
+`whatis:` descripción de una función
+
+`clear:` limpiar la pantalla
+
+# `| gracias`{.naranjo}{background-image="img/pattern.png"}
